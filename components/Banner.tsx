@@ -9,8 +9,8 @@ const Banner: React.FC<{}> = () => {
   };
 
   return (
-    <div className="flex flex-row items-center justify-center px-20 mt-[100px] z-[20] ">
-      <div className="flex flex-col  justify-center  text-center">
+    <div className="flex justify-center px-20 mt-[100px] z-[20]">
+      <div className="flex flex-col items-center text-center">
         <div className="justify-center flex rounded-full overflow-hidden w-[250px] h-[250px]">
           <Image
             priority

@@ -43,6 +43,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/Me.png" />
+        <link rel="apple-touch-icon" href="/Me.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -54,7 +56,7 @@ export default function RootLayout({
               url: "https://ibiimemon.com",
               sameAs: [
                 "https://www.linkedin.com/in/hinal-p-2138a3220/",
-                "https://github.com/Hinall",
+ "https://github.com/Hinall",
               ],
             }),
           }}
